@@ -24,7 +24,7 @@ export default function DevCard() {
       <div className='flex flex-col gap-4 w-full'>
         {links.map((link, index) => (
           <div
-            className='w-full text-center rounded-lg py-3 bg-neutral-grey hover:bg-primary-green hover:text-neutral-dark-grey hover:cursor-pointer'
+            className='w-full text-center rounded-lg py-3 font-semibold bg-neutral-grey hover:bg-primary-green hover:text-neutral-dark-grey hover:cursor-pointer'
             key={index}
           >
             {link}
